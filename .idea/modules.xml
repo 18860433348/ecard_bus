@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ecard-common/ecard-common.iml" filepath="$PROJECT_DIR$/ecard-common/ecard-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecard-common-domain/ecard-common-domain.iml" filepath="$PROJECT_DIR$/ecard-common-domain/ecard-common-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecard-common-mapper/ecard-common-mapper.iml" filepath="$PROJECT_DIR$/ecard-common-mapper/ecard-common-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecard-consumer-web/ecard-consumer-web.iml" filepath="$PROJECT_DIR$/ecard-consumer-web/ecard-consumer-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecard-provider-account/ecard-provider-account.iml" filepath="$PROJECT_DIR$/ecard-provider-account/ecard-provider-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecard-provider-customer/ecard-provider-customer.iml" filepath="$PROJECT_DIR$/ecard-provider-customer/ecard-provider-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecard_bus.iml" filepath="$PROJECT_DIR$/ecard_bus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-friend-spring-boot-starter/girl-friend-spring-boot-starter.iml" filepath="$PROJECT_DIR$/girl-friend-spring-boot-starter/girl-friend-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-analyze/spring-boot-analyze.iml" filepath="$PROJECT_DIR$/spring-boot-analyze/spring-boot-analyze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tkmybatis-generator/tkmybatis-generator.iml" filepath="$PROJECT_DIR$/tkmybatis-generator/tkmybatis-generator.iml" />
+    </modules>
+  </component>
+</project>

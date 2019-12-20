@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ets.tkmybatisgenerator.mapper.CtCustInfoMapper">
+  <resultMap id="BaseResultMap" type="com.ets.tkmybatisgenerator.entity.CtCustInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="LEGAL_PERSON_CODE" jdbcType="VARCHAR" property="legalPersonCode" />
+    <result column="WORK_NO" jdbcType="VARCHAR" property="workNo" />
+    <result column="CUST_CODE" jdbcType="VARCHAR" property="custCode" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="PINYIN" jdbcType="VARCHAR" property="pinyin" />
+    <result column="STATUS" jdbcType="DECIMAL" property="status" />
+    <result column="DEPT_ID" jdbcType="DECIMAL" property="deptId" />
+    <result column="CREATE_TIME" jdbcType="DATE" property="createTime" />
+    <result column="UPDATE_TIME" jdbcType="DATE" property="updateTime" />
+    <result column="OP_ID" jdbcType="DECIMAL" property="opId" />
+    <result column="PHONE" jdbcType="VARCHAR" property="phone" />
+    <result column="ID_CARD_TYPE" jdbcType="DECIMAL" property="idCardType" />
+    <result column="ID_CARD_NO" jdbcType="VARCHAR" property="idCardNo" />
+    <result column="SEX" jdbcType="DECIMAL" property="sex" />
+    <result column="ADDRESS" jdbcType="VARCHAR" property="address" />
+    <result column="IDENTITY_ID" jdbcType="DECIMAL" property="identityId" />
+    <result column="CARD_TYPE" jdbcType="DECIMAL" property="cardType" />
+    <result column="ENTRY_DATE" jdbcType="DATE" property="entryDate" />
+    <result column="OUT_DATE" jdbcType="DATE" property="outDate" />
+    <result column="POLITICAL_ID" jdbcType="DECIMAL" property="politicalId" />
+    <result column="NATION_ID" jdbcType="DECIMAL" property="nationId" />
+    <result column="NATIVE_PLACE_ID" jdbcType="DECIMAL" property="nativePlaceId" />
+    <result column="BIRTHDAY" jdbcType="DATE" property="birthday" />
+    <result column="EDUCATION_ID" jdbcType="DECIMAL" property="educationId" />
+    <result column="EMAIL" jdbcType="VARCHAR" property="email" />
+    <result column="MARRIAGE_STATUS" jdbcType="DECIMAL" property="marriageStatus" />
+    <result column="CUST_BATCH_ID" jdbcType="DECIMAL" property="custBatchId" />
+    <result column="IS_OPEN_CARD" jdbcType="DECIMAL" property="isOpenCard" />
+    <result column="ACCOUNT_PWD" jdbcType="VARCHAR" property="accountPwd" />
+    <result column="THIRD_ID" jdbcType="VARCHAR" property="thirdId" />
+    <result column="ACCES_TOKEN" jdbcType="VARCHAR" property="accesToken" />
+    <result column="VER" jdbcType="DECIMAL" property="ver" />
+    <result column="BACK1" jdbcType="VARCHAR" property="back1" />
+    <result column="BACK2" jdbcType="VARCHAR" property="back2" />
+    <result column="BACK3" jdbcType="VARCHAR" property="back3" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: ecard-consumer-web
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 129.211.124.132:8848
+        namespace: 2ca8a142-ec39-4853-bc8f-38e8dd782854
+      config:
+        server-addr: 129.211.124.132:8848
+        namespace: 2ca8a142-ec39-4853-bc8f-38e8dd782854
+        file-extension: yaml
+        prefix: consumer-web
+        group: consumer
+server:
+  port: 10012

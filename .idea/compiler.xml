@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ecard-common" />
+        <module name="ecard-common-domain" />
+        <module name="ecard-common-mapper" />
+        <module name="ecard-consumer-web" />
+        <module name="ecard-provider-account" />
+        <module name="ecard-provider-customer" />
+        <module name="girl-friend-spring-boot-starter" />
+        <module name="spring-boot-analyze" />
+        <module name="tkmybatis-generator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ecard-common" target="1.8" />
+      <module name="ecard-common-domain" target="1.8" />
+      <module name="ecard-common-mapper" target="1.8" />
+      <module name="ecard-consumer-web" target="1.8" />
+      <module name="ecard-provider-account" target="1.8" />
+      <module name="ecard-provider-customer" target="1.8" />
+      <module name="ecard_bus" target="1.8" />
+      <module name="girl-friend-spring-boot-starter" target="1.7" />
+      <module name="spring-boot-analyze" target="1.7" />
+      <module name="tkmybatis-generator" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

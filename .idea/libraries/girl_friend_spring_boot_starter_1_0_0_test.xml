@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="girl-friend-spring-boot-starter-1.0.0-test">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/girl-friend-spring-boot-starter/target/girl-friend-spring-boot-starter-1.0.0-test.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
