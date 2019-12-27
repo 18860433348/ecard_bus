@@ -14,7 +14,7 @@ public class Person {
 
     public Person(){}
 
-    private Person(Integer id, String name, Integer age){
+    public Person(Integer id, String name, Integer age){
         this.id = id;
         this.name = name;
         this.age = age;

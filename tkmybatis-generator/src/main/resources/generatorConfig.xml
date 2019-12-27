@@ -5,7 +5,7 @@
 
 <generatorConfiguration>
     <!-- 引入数据库连接配置 -->
-   <!-- <properties resource="jdbc.properties"/>-->
+   <!-- <properties resources="jdbc.properties"/>-->
 
     <context id="Oracle" targetRuntime="MyBatis3Simple" defaultModelType="flat">
         <property name="beginningDelimiter" value="`"/>
