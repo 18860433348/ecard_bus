@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-on-xml" />
+    <file type="web" url="file://$PROJECT_DIR$/../testmvc" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -13,6 +17,8 @@
         <option value="$PROJECT_DIR$/ecard-consumer-web/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-analyze/pom.xml" />
         <option value="$PROJECT_DIR$/girl-friend-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-on-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/tk-mybatis-test/pom.xml" />
       </list>
     </option>
   </component>

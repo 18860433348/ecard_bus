@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ecard-common" />
-        <module name="ecard-common-domain" />
-        <module name="ecard-common-mapper" />
         <module name="ecard-consumer-web" />
         <module name="ecard-provider-account" />
-        <module name="ecard-provider-customer" />
         <module name="girl-friend-spring-boot-starter" />
-        <module name="spring-boot-analyze" />
+        <module name="test-mvc" />
+        <module name="ecard-common" />
+        <module name="ecard-common-domain" />
+        <module name="tk-mybatis-test" />
+        <module name="spring-on-xml" />
+        <module name="ecard-common-mapper" />
         <module name="tkmybatis-generator" />
+        <module name="spring-boot-analyze" />
+        <module name="ecard-provider-customer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,7 +30,23 @@
       <module name="ecard_bus" target="1.8" />
       <module name="girl-friend-spring-boot-starter" target="1.7" />
       <module name="spring-boot-analyze" target="1.7" />
+      <module name="spring-on-xml" target="1.7" />
+      <module name="test-mvc" target="1.7" />
+      <module name="tk-mybatis-test" target="1.8" />
       <module name="tkmybatis-generator" target="1.7" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ecard-common" options="-parameters" />
+      <module name="ecard-common-domain" options="-parameters" />
+      <module name="ecard-common-mapper" options="-parameters" />
+      <module name="ecard-consumer-web" options="-parameters" />
+      <module name="ecard-provider-account" options="-parameters" />
+      <module name="ecard-provider-customer" options="-parameters" />
+      <module name="girl-friend-spring-boot-starter" options="-parameters" />
+      <module name="tk-mybatis-test" options="-parameters" />
+      <module name="tkmybatis-generator" options="-parameters" />
+    </option>
   </component>
 </project>
