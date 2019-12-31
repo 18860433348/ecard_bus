@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ets.tkmybatistest.mapper.RepTjOperMapper">
+  <resultMap id="BaseResultMap" type="com.ets.tkmybatistest.entity.RepTjOper">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="DECIMAL" property="id" />
+    <result column="LEGAL_PERSON_CODE" jdbcType="VARCHAR" property="legalPersonCode" />
+    <result column="OPID" jdbcType="DECIMAL" property="opid" />
+    <result column="ACC_CODE" jdbcType="DECIMAL" property="accCode" />
+    <result column="DISCOUNT_COUNT" jdbcType="DECIMAL" property="discountCount" />
+    <result column="DISCOUNT_AMOUNT_COUNT" jdbcType="DECIMAL" property="discountAmountCount" />
+    <result column="EXTRA_COUNT" jdbcType="DECIMAL" property="extraCount" />
+    <result column="EXTRA_AMOUNT_COUNT" jdbcType="DECIMAL" property="extraAmountCount" />
+    <result column="SUB_COUNT" jdbcType="DECIMAL" property="subCount" />
+    <result column="SUB_AMOUNT_COUNT" jdbcType="DECIMAL" property="subAmountCount" />
+    <result column="TRADE_COUNT" jdbcType="DECIMAL" property="tradeCount" />
+    <result column="TRADE_AMOUNT_COUNT" jdbcType="DECIMAL" property="tradeAmountCount" />
+    <result column="TOTAL_AMOUNT_COUNT" jdbcType="DECIMAL" property="totalAmountCount" />
+    <result column="TRADE_DATE" jdbcType="DATE" property="tradeDate" />
+    <result column="TJ_DATE" jdbcType="DATE" property="tjDate" />
+    <result column="CREATE_TIME" jdbcType="DATE" property="createTime" />
+  </resultMap>
+</mapper>
