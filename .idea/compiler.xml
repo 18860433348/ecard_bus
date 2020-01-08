@@ -12,12 +12,13 @@
         <module name="test-mvc" />
         <module name="ecard-common" />
         <module name="ecard-common-domain" />
-        <module name="tk-mybatis-test" />
         <module name="spring-on-xml" />
+        <module name="tk-mybatis-test" />
         <module name="ecard-common-mapper" />
         <module name="tkmybatis-generator" />
         <module name="spring-boot-analyze" />
         <module name="ecard-provider-customer" />
+        <module name="spring-on-annotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +31,7 @@
       <module name="ecard_bus" target="1.8" />
       <module name="girl-friend-spring-boot-starter" target="1.7" />
       <module name="spring-boot-analyze" target="1.7" />
+      <module name="spring-on-annotation" target="1.7" />
       <module name="spring-on-xml" target="1.7" />
       <module name="test-mvc" target="1.7" />
       <module name="tk-mybatis-test" target="1.8" />

@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/ecard_bus.iml" filepath="$PROJECT_DIR$/ecard_bus.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-friend-spring-boot-starter/girl-friend-spring-boot-starter.iml" filepath="$PROJECT_DIR$/girl-friend-spring-boot-starter/girl-friend-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-analyze/spring-boot-analyze.iml" filepath="$PROJECT_DIR$/spring-boot-analyze/spring-boot-analyze.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-on-annotation/spring-on-annotation.iml" filepath="$PROJECT_DIR$/spring-on-annotation/spring-on-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-on-xml/spring-on-xml.iml" filepath="$PROJECT_DIR$/spring-on-xml/spring-on-xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/tk-mybatis-test/tk-mybatis-test.iml" filepath="$PROJECT_DIR$/tk-mybatis-test/tk-mybatis-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/tkmybatis-generator/tkmybatis-generator.iml" filepath="$PROJECT_DIR$/tkmybatis-generator/tkmybatis-generator.iml" />

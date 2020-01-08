@@ -123,6 +123,35 @@ public class Test {
             e.printStackTrace();
         }*/
 
+
+        /**
+         * 集合转数组指定0效率更高  结果4
+         */
+        /*List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        Integer[] integers = list.toArray(new Integer[0]);
+        int length = integers.length;
+        System.out.println(length);*/
+
+
+        /**
+         * 集合判断空使用 CollectionUtils.isEmpty()    非空且长度大于0    ！CollectionUtils.isEmpty()
+         */
+        /*List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        if (!CollectionUtils.isEmpty(list)){
+            System.out.println("list is not empty");
+        }else {
+            System.out.println("list is empty");
+        }*/
+
+
     }
 
 

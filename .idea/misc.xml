@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/spring-on-annotation" />
     <file type="web" url="file://$PROJECT_DIR$/spring-on-xml" />
     <file type="web" url="file://$PROJECT_DIR$/../testmvc" />
   </component>
@@ -19,6 +20,7 @@
         <option value="$PROJECT_DIR$/girl-friend-spring-boot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/spring-on-xml/pom.xml" />
         <option value="$PROJECT_DIR$/tk-mybatis-test/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-on-annotation/pom.xml" />
       </list>
     </option>
   </component>
