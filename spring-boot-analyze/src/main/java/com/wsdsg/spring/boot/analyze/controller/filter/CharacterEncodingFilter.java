@@ -39,7 +39,6 @@ public class CharacterEncodingFilter implements Filter {
 
         // 1.强转req/res 【思考一下为什么要加final】
         final HttpServletRequest request = (HttpServletRequest) req;
-        HttpServletResponse response = (HttpServletResponse) res;
 
         // 2.使用Proxy.newProxyInstance()创建Request代理对象
         Object proxyRequest = Proxy.newProxyInstance(
