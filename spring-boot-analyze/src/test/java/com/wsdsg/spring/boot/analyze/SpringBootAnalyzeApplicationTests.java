@@ -23,7 +23,7 @@ public class SpringBootAnalyzeApplicationTests {
 
 	@Test
 	public void contextLoads() throws Exception {
-
+		System.out.println(111);
 	}
 
 }

@@ -25,9 +25,9 @@
         <!-- 配置数据库连接 -->
         <jdbcConnection
                 driverClass="oracle.jdbc.driver.OracleDriver"
-                connectionURL="jdbc:oracle:thin:@172.168.20.10:1521/orcl"
-                userId="ECARD_V3"
-                password="ECARD_V3">
+                connectionURL="jdbc:oracle:thin:@172.168.0.18:1521/orcl"
+                userId="ECARD_V3_0113"
+                password="ECARD_V3_0113">
         </jdbcConnection>
 
         <!-- 配置实体类存放路径 -->
@@ -51,6 +51,11 @@
 
         <table tableName="tr_cust_card">
             <generatedKey column="ID" sqlStatement="select seq_tr_cust_card.nextval from dual" identity="false"
+                          type="pre"/>
+        </table>
+
+        <table tableName="dv_dev_info">
+            <generatedKey column="ID" sqlStatement="select seq_dv_dev_info.nextval from dual" identity="false"
                           type="pre"/>
         </table>
 

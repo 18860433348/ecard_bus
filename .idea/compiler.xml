@@ -12,7 +12,6 @@
         <module name="test-mvc" />
         <module name="ecard-common" />
         <module name="ecard-common-domain" />
-        <module name="spring-on-xml" />
         <module name="tk-mybatis-test" />
         <module name="ecard-common-mapper" />
         <module name="tkmybatis-generator" />
