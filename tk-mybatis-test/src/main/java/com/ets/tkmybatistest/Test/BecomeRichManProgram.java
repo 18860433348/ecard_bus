@@ -10,9 +10,9 @@ import java.util.*;
 public class BecomeRichManProgram {
 
     /**
-     * 每生成一注幸运号码要计算的注数 如value为100万 就是从100万中选取一注 可更改
+     * 每生成一注幸运号码要计算的注数 如value为1000万 就是从1000万中选取一注 可更改
      */
-    private static final Integer MAX_COUNT = 1000000;
+    private static final Integer MAX_COUNT = 2000000;
 
     /**
      * 随机次数 如MAX_COUNT为100万,随机从100万中取一个数字，随机RANDOM_COUNT次,求平均值得出幸运号码所在的key
@@ -69,9 +69,12 @@ public class BecomeRichManProgram {
                 Integer[] redNumNullArr = new Integer[RED_NUM_LENGTH];
                 Integer[] redNumArr = redNumSet.toArray(redNumNullArr);
                 Arrays.sort(redNumArr);
-                System.out.println("red ball: "+ Arrays.toString(redNumArr));
-                System.out.println("blue ball: " +blueNum);
+                System.out.println("red ball: " + Arrays.toString(redNumArr));
+                System.out.println("blue ball: " + blueNum);
                 System.out.println("<------------------------------I'm the dividing line--------------------------->");
+                key = 1;
+                blueMap.clear();
+                redMap.clear();
                 break;
             }
         }
@@ -97,7 +100,7 @@ public class BecomeRichManProgram {
             Set<Integer> luckRedNumSet = new HashSet<>();
             while (true) {
                 int luckRedNum = new Random().nextInt(RED_MAX);
-                if (luckRedNum == RED_AND_BLUE_MIN) {
+                if (luckRedNum == RED_AND_BLUE_MIN || luckRedNumSet.contains(luckRedNum)) {
                     continue;
                 }
                 luckRedNumSet.add(luckRedNum);
